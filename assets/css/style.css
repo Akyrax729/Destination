@@ -84,8 +84,7 @@ section {
     background-position: center;
 }
 article {
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
