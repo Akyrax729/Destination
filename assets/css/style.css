@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../font/Roboto-Regular.ttf);
+}
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+a {
+    color: white;
+}
+nav {
+    display:flex;
+    justify-content: flex-end;
+    background-color: #808080;
+}
+ul {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+    align-items:center;
+    width: 20rem;
+}
+.btnnav {
+    background-color: #808080;
+    display: inline-block;
+    text-align: center;
+    padding-top: 1rem;
+    height: 2rem;
+    width: 8rem;
+    
+}
+.btnnavparis:hover {
+    background-color: #6C3483;
+}
+.btnnavtokyo:hover {
+    background-color: #CB4335;
+}
+.btnnavny:hover {
+    background-color: #2874A6;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 1px rgb(70, 70, 70);
+    max-width: 400px;
+    height: 500px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+#imgparis {
+    background-image: url(../img/paris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imgtokyo {
+    background-image: url(../img/tokyo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imgny {
+    background-image: url(../img/new-york.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+article {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+h2 {
+    padding-bottom: 15px;
+}
+p {
+    margin-bottom: 30px;
+}
+.btn {
+    width: 150px;
+    text-align: center;
+    padding: 0.5em;
+    align-self: center;
+}
+.btnparis{
+    background-color: #6C3483;
+}
+.btnparis:hover{
+    background-color: #808080;
+}
+.btntokyo{
+    background-color: #CB4335;
+}
+.btntokyo:hover {
+    background-color: #808080;
+}
+.btnny {
+    background-color: #2874A6;
+}
+.btnny:hover {
+    background-color: #808080;
+}
